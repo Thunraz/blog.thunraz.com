@@ -6,10 +6,10 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Thunraz Blog
+title: Thunraz
 email: thunraz@thunraz.com
 description: >
-  Awesome site description here
+  game dev, astronomy, photography 
 logo: "/assets/images/logo.jpg"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://thunraz.github.io" # the base hostname & protocol for your site
@@ -17,9 +17,10 @@ paginate:	5 # The number of posts to show per page on your homepage
 
 name: 'Julian'
 bio: >
-  Mea suas vituperatoribus et, virtute corpora quaestio cum ut.
-  Ne solet nostrum complectitur pri, vis ut inani populo.
-author_image: "/assets/images/author.jpg"
+  I like to play games and sometimes I develop small games
+  on my own or with friends of mine.
+  I am also interested in astronomy and photography and the combination of the two.
+author_image: "/assets/images/author.png"
 twitter_username: thunraz
 github_username:  thunraz
 
