@@ -56,6 +56,7 @@ body {
   -webkit-font-feature-settings: "liga", "dlig";
   -o-font-feature-settings: "liga", "dlig";
   font-feature-settings: "liga", "dlig";
+  background-color: #f8f8f8;
 }
 
 .site-header {
@@ -510,4 +511,14 @@ pre {
 
 .pagination .disabled {
     opacity: 0;
+}
+
+a:link, a:visited {
+  color: #0057DE;
+  text-decoration: none;
+}
+
+amp-img + em {
+  display: block;
+  font-size: .75em;
 }

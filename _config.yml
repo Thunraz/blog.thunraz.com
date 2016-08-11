@@ -23,6 +23,7 @@ bio: >
 author_image: "/assets/images/author.png"
 twitter_username: thunraz
 github_username:  thunraz
+excerpt_separator:
 
 # Build settings
 markdown: kramdown
