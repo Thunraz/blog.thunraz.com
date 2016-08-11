@@ -4,10 +4,10 @@ title: Galaxies and nebulae
 ---
 
 Last weekend’s session provided me with a better view of the
-<a href="https://en.wikipedia.org/wiki/Andromeda_Galaxy">Andromeda Galaxy</a>,
-<a href="https://en.wikipedia.org/wiki/Dumbbell_Nebula">Dumbbell Nebula</a>,
-<a href="https://en.wikipedia.org/wiki/Ring_Nebula">Ring Nebula</a>
-and the <a href="https://en.wikipedia.org/wiki/Triangulum_Galaxy">Triangulum Galaxy</a>.
+[Andromeda Galaxy](https://en.wikipedia.org/wiki/Andromeda_Galaxy),
+[Dumbbell Nebula](https://en.wikipedia.org/wiki/Dumbbell_Nebula),
+[Ring Nebula](https://en.wikipedia.org/wiki/Ring_Nebula)
+and the [Triangulum Galaxy](https://en.wikipedia.org/wiki/Triangulum_Galaxy).
 
 <p>
     <amp-img width="1200" height="800" layout="responsive" src="/assets/images/2015-08-13-andromeda.png"></amp-img>
