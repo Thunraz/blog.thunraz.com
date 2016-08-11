@@ -9,7 +9,12 @@ Last weekend’s session provided me with a better view of the
 <a href="https://en.wikipedia.org/wiki/Ring_Nebula">Ring Nebula</a>
 and the <a href="https://en.wikipedia.org/wiki/Triangulum_Galaxy">Triangulum Galaxy</a>.
 
-<amp-img width="1200" height="800" layout="responsive" src="/assets/images/2015-08-13-andromeda.png"></amp-img>
+<p>
+    <amp-img width="1200" height="800" layout="responsive" src="/assets/images/2015-08-13-andromeda.png"></amp-img>
+    *Unfortunately I didn't set up my mount properly so the stars are a little skewed.*
+</p>
+
+
 <amp-img width="850" height="1200" layout="responsive" src="/assets/images/2015-08-13-dumbbell.png"></amp-img>
 <amp-img width="1200" height="781" layout="responsive" src="/assets/images/2015-08-13-ring.png"></amp-img>
 <amp-img width="1200" height="800" layout="responsive" src="/assets/images/2015-08-13-triangulum.png"></amp-img>
