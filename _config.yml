@@ -12,10 +12,10 @@ description: >
   game dev, astronomy, photography 
 logo: "/assets/images/logo.jpg"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://thunraz.github.io" # the base hostname & protocol for your site
+url: "https://blog.thunraz.com" # the base hostname & protocol for your site
 paginate:	5 # The number of posts to show per page on your homepage
 
-name: 'Julian'
+name: 'Julian Dinges'
 bio: >
   I like to play games and sometimes I develop small games
   on my own or with friends of mine.
@@ -23,7 +23,7 @@ bio: >
 author_image: "/assets/images/author.png"
 twitter_username: thunraz
 github_username:  thunraz
-excerpt_separator:
+flickr_username: fix_moeller
 
 # Build settings
 markdown: kramdown
