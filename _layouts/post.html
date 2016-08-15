@@ -3,9 +3,19 @@ layout: default
 ---
 <main class="content" role="main">
     <article class="post">
-        <div class="post-meta">
-            <h1 class="post-title">{{ page.title }}</h1>
-        </div>
+        <header class="post-header">
+            <h1 class="post-title" itemprop="name">{{ page.title }}</h1>
+            <div class="post-meta">
+                <time datetime="{{ page.date | date_to_long_string }}">{{ page.date | date_to_long_string }}</time>
+                {% for tag in page.tags %}
+                    {% for my_page in site.pages %}
+                        {% if my_page.tag and my_page.tag == tag %}
+                            &bull; <a href="{{ my_page.url }}">{{tag}}</a>
+                        {% endif %}
+                    {% endfor %}
+                {% endfor %}
+            </div>
+        </header>
 
         <section class="post-content">
             <a name="topofpage"></a>
