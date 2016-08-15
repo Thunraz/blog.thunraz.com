@@ -9,21 +9,26 @@
 title: Thunraz
 email: thunraz@thunraz.com
 description: >
-  game dev, astronomy, photography, beer brewing, bike building
-logo: "/assets/images/logo.jpg"
+  game dev, astronomy, photography, beer brewing, biking, bike building
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.thunraz.com" # the base hostname & protocol for your site
 paginate:	5 # The number of posts to show per page on your homepage
+
+post_images:  /assets/images/posts
+logo:         /assets/images/logo.jpg
+author_image: /assets/images/author.png
 
 name: 'Julian Dinges'
 bio: >
   I like to play games and sometimes I develop small games
   on my own or with friends of mine.
   I am also interested in astronomy and photography and the combination of the two.
-author_image: "/assets/images/author.png"
 twitter_username: thunraz
 github_username:  thunraz
-flickr_username: fix_moeller
+flickr_username:  fix_moeller
+
+tag_title_prefix: ""
+tag_title_suffix: ""
 
 # Build settings
 markdown: kramdown
