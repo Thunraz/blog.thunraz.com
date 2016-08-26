@@ -22,6 +22,12 @@ layout: default
                     </header>
                     <section class="post-excerpt" itemprop="description">
                         <p>{{ post.excerpt }}</p>
+                        {% assign excerpt_length = post.excerpt | size %}
+                        {% assign content_length = post.content | size %}
+
+                        {% if excerpt_length != content_length %}
+                            <a href="{{ site.baseurl }}{{ post.url }}" itemprop="url">Read more</a>
+                        {% endif %}
                     </section>
                 </div>
             </article>
