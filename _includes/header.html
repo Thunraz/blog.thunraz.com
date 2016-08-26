@@ -8,6 +8,7 @@
             <a href="https://github.com/{{site.github_username}}"><i class="fa fa-github"></i></a>
             <a href="https://twitter.com/{{site.twitter_username}}"><i class="fa fa-twitter"></i></a>
             <a href="https://flickr.com/photos/{{site.flickr_username}}"><i class="fa fa-flickr"></i></a>
+            <a href="https://runvs.io/"><i class="fa fa-gamepad"></i></a>
             <a href="{{ "/feed.xml" | prepend: site.baseurl }}"><i class="fa fa-rss"></i></a>
         </section>
 
@@ -21,8 +22,14 @@
             {% endfor %}
         </section>
         <section class="tags">
+            {% assign first_tag = true %}
             {% for my_page in site.pages %}
                 {% if my_page.tag %}
+                    {% if first_tag == false %}
+                        &bull;
+                    {% else %}
+                        {% assign first_tag = false %}
+                    {% endif %}
                     <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
                 {% endif %}
             {% endfor %}
