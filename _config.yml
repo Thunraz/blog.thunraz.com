@@ -39,4 +39,7 @@ kramdown:
 gems:
   - jekyll-paginate
 
+plugins:
+  - jekyll-paginate
+
 exclude: ['Gemfile.lock', 'Gemfile', '*.sh']
